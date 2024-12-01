@@ -2,7 +2,13 @@
 <html>
   <head>
     <title>grrr</title>
-    <script defer>
+  </head>
+  <body>
+    <h1>the grrr-inator</h1>
+    <button id="clickme">click</button>
+    <p id="text"></p>
+    <p>click the button and copy the text</p>
+    <script>
       // yes i know this should probably be in a separate file
       // no i dont care
       const btn = document.querySelector("#clickme");
@@ -16,11 +22,5 @@
         p.innerText = grr.join("")
       })
     </script>
-  </head>
-  <body>
-    <h1>the grrr-inator</h1>
-    <button id="clickme">click</button>
-    <p id="text"></p>
-    <p>click the button and copy the text</p>
   </body>
 </html>
